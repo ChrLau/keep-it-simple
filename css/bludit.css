@@ -53,3 +53,11 @@ h2.plugin-label {
    height: 24px;
    width: 100%;
 }
+
+/* My custom stuff */
+code {
+    font-size: 87.5%;
+    color: #e83e8c;
+    word-wrap: break-word;
+    font-family: 'Roboto Mono', monospace;
+}
