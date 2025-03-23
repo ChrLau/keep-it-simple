@@ -78,7 +78,8 @@
 
 					echo $L->get('Tag');
 
-					foreach($tags as $tagKey=>$tagName) {
+					foreach($page->tags(true) as $tagKey=>$tagName) {
+					//foreach($tags as $tagKey=>$tagName) {
 						echo ': <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 					}
 				}
@@ -87,7 +88,8 @@
 
 					echo $L->get('Tags');
 
-					foreach($tags as $tagKey=>$tagName) {
+					foreach($page->tags(true) as $tagKey=>$tagName) {
+					//foreach($tags as $tagKey=>$tagName) {
 
 						if ($i == 0) {
 							echo ': <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
@@ -95,7 +97,7 @@
 
 						else
 						{
-							echo ', <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a></li>';
+							echo ', <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 						}
 
 					$i++;
