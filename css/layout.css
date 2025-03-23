@@ -22,7 +22,8 @@
 
 body { 
 	background: #F6F5F5;
-	border-top: 6px solid #9FCC7F; 
+/*	border-top: 6px solid #9FCC7F; */
+	border-top: 6px solid #F06525;
 }
 .page { 
 	padding-bottom: 18px;
@@ -33,7 +34,8 @@ body {
 .entry h2,
 .entry h2 a {
 	font: 31px/36px 'opensans-semibold', sans-serif;
-	color: #444;
+	/* color: #444; */
+	color: #F06525;
 	margin-bottom: 0;
 	letter-spacing: -.5px;
 }
@@ -80,7 +82,8 @@ header h1#logo-text a {
 	padding: 0;
 	font: normal 75px Georgia, Serif;
 	letter-spacing: -5px;
-	color: #93b876;
+	/* color: #93b876; */
+	color: #F06525;
 	text-decoration: none;
 }
 header p#intro {	
