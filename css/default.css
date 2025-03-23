@@ -353,7 +353,8 @@ ol ol li, ol ul li { }
    color: #444;
 }
 .stats-tabs li a:hover {
-   color: #93B876;
+/*   color: #93B876; */
+   color: #F06525;
 }
 .stats-tabs li a em {
 	display: block;
@@ -365,7 +366,8 @@ ol ol li, ol ul li { }
 
 /* definition list */
 dl { margin: 12px 0; }
-dt { margin: 0; color: #93B876; }
+/* dt { margin: 0; color: #93B876; } */
+dt { margin: 0; color: #F06525; }
 dd { margin: 0 0 0 20px; }
 
 /* Lining Definition Style Markup */
@@ -437,7 +439,8 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .current,
 .pagination .current:hover {
-   background-color: #93B876;
+/*   background-color: #93B876; */
+   background-color: #F06525;
    color: #fff;
 }
 .pagination .inactive,

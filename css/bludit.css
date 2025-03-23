@@ -46,7 +46,8 @@ h2.plugin-label {
 
 .plugin-tags a:hover {
    color: #fff;
-   background: #93B876;
+/*   background: #93B876; */
+   background: #F06525;
 }
 
 .meta-empty {

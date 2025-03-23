@@ -372,7 +372,8 @@ ul#nav ul li a {
 }
 #sidebar .tagcloud a:hover {
    color: #fff;
-   background: #93B876;
+/*   background: #93B876; */
+   background: #F06525;
 }
 
 
@@ -426,7 +427,8 @@ ul#nav ul li a {
 .post-nav li strong {
    font: 16px/30px 'opensans-bold', sans-serif;
    text-transform: uppercase;
-   color: #93B876;
+   /* color: #93B876; */
+   color: #F06525;
    letter-spacing: 0.5px;
    display: block;
 }
@@ -541,7 +543,8 @@ ol.commentlist {
    margin-top: 12px;
 }
 #comments form span.required {
-	color: #93B876;
+	/* color: #93B876; */
+	color: #F06525;
 	font-size: 15px;
 }
 
