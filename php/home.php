@@ -58,6 +58,9 @@
 
  	</div>
 
+	<!-- ISSO Comment counter -->
+        <a href="<?php echo $page->permalink(); ?>#isso-thread">Comments</a>
+
  </article> <!-- end entry -->
 
 <!-- Load Bludit Plugins: Page End -->
