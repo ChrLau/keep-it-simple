@@ -27,12 +27,12 @@
 
 				echo '<div class="entry-meta">';
 				echo '<ul>';
-				echo '<li>'.$page->date().'</li>';
-				echo ' <span class="meta-sep">&bull;</span> ';
+				echo '<li>'.$page->date().' &bull; </li>';
+				#echo ' <span class="meta-sep">&bull;</span> ';
 
 				if ($page->category() ==! "") {
-					echo '<li><a href="'.HTML_PATH_ROOT.$url->filters('category').'/'.strtolower($page->category()).'">'.$page->category().'</a></li>';
-					echo ' <span class="meta-sep">&bull;</span> ';
+					echo '<li><a href="'.HTML_PATH_ROOT.$url->filters('category').'/'.strtolower($page->category()).'">'.$page->category().'</a> &bull; </li>';
+					#echo ' <span class="meta-sep">&bull;</span> ';
 				}
 
 				echo '<li>'.$author.'</li>';
