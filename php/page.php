@@ -119,7 +119,7 @@
 <!-- Load Bludit Plugins: Page End -->
 <?php Theme::plugins('pageEnd'); ?>
 
-<section id="isso-thread">
+<div id="isso-thread">
 	<noscript>Javascript needs to be activated to view comments.</noscript>
-</section>
+</div>
 
