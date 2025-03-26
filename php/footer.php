@@ -41,6 +41,10 @@
 
       </ul>
 
+      <p class="copyright"><a href="https://uberblogr.de/prev/admin" title="Zurück im Ring">«</a>
+      <a href="https://uberblogr.de/home/admin" title="Mitglied im UberBlogr Webring">UberBlogr Webring</a>
+      <a href="https://uberblogr.de/next/admin" title="Vor im Ring">»</a></p>
+
       <p class="copyright"><?php echo $site->footer(); ?> Powered by <a target="_blank" href="https://www.bludit.com">Bludit</a>. &nbsp; Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a>.</p>
 
     </div>
