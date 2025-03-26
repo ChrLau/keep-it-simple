@@ -30,12 +30,12 @@
 
 		?>
 			<ul>
-		    	<li><?php echo $page->date(); ?></li>
-			    	<span class="meta-sep">&bull;</span>
+		    	<li><?php echo $page->date(); ?> &bull; </li>
+			<!-- <span class="meta-sep">&bull;</span> -->
 				<?php
 				if ($page->category() ==! "") {
-			  		echo '<li><a href="'.HTML_PATH_ROOT.$url->filters('category').'/'.strtolower($page->category()).'">'.$page->category().'</a></li>';
-					echo ' <span class="meta-sep">&bull;</span> ';
+			  		echo '<li><a href="'.HTML_PATH_ROOT.$url->filters('category').'/'.strtolower($page->category()).'">'.$page->category().'</a> &bull; </li>';
+					#echo ' <span class="meta-sep">&bull;</span> ';
 				}
 				?>
 			  	<li><?php echo $author; ?></li>
