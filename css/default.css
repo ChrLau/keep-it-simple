@@ -180,7 +180,10 @@ p.lead {
 
 /* for 'em' and 'strong' tags, font-size and line-height should be same with
 the body tag due to rendering problems in some browsers */
-em { font: 15px/30px 'merriweather-italic', sans-serif; }
+/* em { font: 15px/30px 'merriweather-italic', sans-serif; } */
+/* em { font-size: 15px; line-height: 30px; font-family: 'Merriweather', serif; font-style: italic; } */
+/* em { font: 15px/30px georgia, sans-serif; font-style: italic; } */
+em { font-size: 15px; line-height: 30px; font-style: italic; }
 strong, b { font: 15px/30px 'merriweather-bold', sans-serif; }
 small { font-size: 11px; line-height: inherit; }
 
@@ -214,7 +217,8 @@ blockquote:after {
    right: 0;
 }
 blockquote p {
-   font-family: georgia, serif;
+/*   font-family: georgia, serif; */
+   font-family: 'Merryweather', serif;
    font-style: italic;
    padding: 0;
    font-size: 18px;
