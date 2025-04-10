@@ -20,6 +20,9 @@
 
 			  <ul id="nav" class="nav">
 
+			  	<!-- Link to site root -->
+			  	<li><a href="<?php echo $site->url(); ?>">Home</a></li>
+
 			  <!-- Static pages -->
 				<?php
 				   $current_page = $_SERVER['REQUEST_URI'];
