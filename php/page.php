@@ -65,16 +65,16 @@
 		<?php
   		if ($page->type() == "published") {
 
- 		//$tags = $page->tags(true);
+ 		$tags = $page->tags(true);
 
-		//$i = 0;
-		//$len = count($tags);
+		$i = 0;
+		$len = count($tags);
 
-			//if ( $len >= 1) {
+			if ( $len >= 1) {
 
 				echo '<p class="tags">';
 
-				//if ($i == 0 &&  $len == 1 ) {
+				if ($i == 0 &&  $len == 1 ) {
 
 					echo $L->get('Tag');
 
@@ -82,33 +82,28 @@
 					//foreach($tags as $tagKey=>$tagName) {
 						echo ': <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
 					}
-				//}
+				} else {
 
-				//else {
+					echo $L->get('Tags');
 
-				//	echo $L->get('Tags');
-
-					//foreach($page->tags(true) as $tagKey=>$tagName) {
+					foreach($page->tags(true) as $tagKey=>$tagName) {
 					//foreach($tags as $tagKey=>$tagName) {
 
-						//if ($i == 0) {
-						//	echo ': <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
-						//}
+						if ($i == 0) {
+							echo ': <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
+						} else {
+							echo ', <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
+						}
 
-						//else
-						//{
-						//	echo ', <a href="'.HTML_PATH_ROOT.$url->filters('tag').'/'.$tagKey.'">'.$tagName.'</a>';
-						//}
+					$i++;
 
-					//$i++;
+					}
 
-					//}
-
-				//}
+				}
 
 				echo '</p>';
 
-			//}
+			}
 
 		}
 
