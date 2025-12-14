@@ -3,7 +3,6 @@
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="no-js ie ie9" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<html>
 <head>
   <?php include(THEME_DIR_PHP.'head.php'); ?>
 </head>
