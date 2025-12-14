@@ -13,6 +13,7 @@
 <link rel="icon" type="image/png" sizes="32x32" href="<?php echo Theme::src('favicon-32x32.png') ?>">
 <link rel="icon" type="image/png" sizes="16x16" href="<?php echo Theme::src('favicon-16x16.png') ?>">
 <link rel="manifest" href="<?php echo Theme::src('site.webmanifest') ?>">
+<link rel="sitemap" type="application/xml" title="Sitemap" href="<?php echo Theme::sitemapUrl('/sitemap.xml') ?>">
 
 <!-- CSS: Styles for this theme -->
 <?php echo Theme::css('css/default.css'); ?>
